@@ -1,0 +1,10 @@
+# See https://github.com/github/linguist
+public/* linguist-vendored
+*.bat text eol=crlf   
+
+src/*.ts linguist-detectable
+
+public/index.html linguist-vendored
+*.map linguist-generated
+* text=auto eol=lf
+src/** linguist-detectable
